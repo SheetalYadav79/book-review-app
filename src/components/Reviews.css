@@ -1,0 +1,126 @@
+/* Main container for all reviews */
+.review-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    margin-top: 100px;
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    border-radius: 20px;
+}
+
+/* Style for the section heading */
+.review-main h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: #333;
+}
+
+/* Flex container for review cards */
+.review-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping to a new row if space runs out */
+    gap: 16px; /* Adds spacing between each card */
+    justify-content: center; /* Center-align cards */
+    max-width: 1200px; /* Optional max-width */
+}
+
+/* Individual review card */
+.book-review-card {
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    width: 250px;
+    flex-grow: 1; /* Makes cards flexible */
+}
+
+/* Styling for book details within each card */
+.book-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.book-author {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.rating {
+    font-size: 14px;
+    color: #ffa500; /* Gold color for stars */
+    margin-bottom: 8px;
+}
+
+.book-description {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.search-filter {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    padding: 8px;
+    font-size: 16px;
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.search-filter {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .search-button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff; /* Change to your preferred color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  

@@ -1,0 +1,59 @@
+
+.add-review-main {
+    text-align: left;
+    padding: 50px 50px 80px 50px;
+    box-sizing: border-box; 
+    }
+    
+    .review-form {
+    margin: 20px 0;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden; 
+    }
+    
+    .form-heading {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    }
+    
+    input[type='text'], 
+    textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+    }
+    
+    .select-genere{
+    margin: 10px 0;
+    padding: 10px 0;
+    }
+    
+    .submit-button {
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+        margin-bottom: 20px;
+        text-decoration: none;
+        transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+    }
+    
+    .submit-button:hover {
+        background-color: #FBBF24; /* New hover color */
+        color: #333; /* Text color change */
+    }
+    
+    .submit-button-link {
+        color: inherit; /* Inherit color from parent (.review-button) */
+        text-decoration: none;
+    }
+    
+    .submit-button-link:hover {
+        color: inherit; /* Keep the hover color consistent with the button */
+    }
+    
+    

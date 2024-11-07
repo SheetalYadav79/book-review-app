@@ -1,0 +1,44 @@
+.home {
+    text-align: left;
+    padding: 50px 50px 80px 50px;
+}
+
+.main-heading {
+    /* font-size: 2.5rem; */
+    color: #333;
+    text-align: left;
+    font-size: 80px;
+    margin: 0;
+}
+
+.description {
+    font-size: 1.8rem;
+    width: 70%;
+    color: #555;
+}
+
+.review-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.review-button:hover {
+    background-color: #FBBF24; /* New hover color */
+    color: #333; /* Text color change */
+}
+
+.review-button-link {
+    color: inherit; /* Inherit color from parent (.review-button) */
+    text-decoration: none;
+}
+
+.review-button-link:hover {
+    color: inherit; /* Keep the hover color consistent with the button */
+}
